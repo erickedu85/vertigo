@@ -27,7 +27,7 @@ Visual Querying System, Visual Pattern Suggestion, Multilayer Networks
 Java
 
 ## Getting the code
-The code is hosted at [Github](https://github.com/erickedu85/vertigo"Github")
+The code is hosted at [Github](https://github.com/erickedu85/vertigo)
 
 Get the last version of this approach with:
 
