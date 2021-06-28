@@ -1,0 +1,198 @@
+/* adder.jj Adding up numbers */
+
+options {
+STATIC = false ;
+JAVA_UNICODE_ESCAPE = true ;
+  UNICODE_INPUT = false ;
+}
+
+PARSER_BEGIN(AmberParser)
+package queryparser;
+import java.util.ArrayList;
+import query.Query;
+import com.gs.collections.impl.map.mutable.primitive.ObjectIntHashMap;
+import com.gs.collections.impl.map.mutable.primitive.ObjectShortHashMap;
+
+
+public class AmberParser {
+	public static void main( String[] args )
+		throws ParseException, TokenMgrError {
+/*
+		Adder parser = new Adder( System.in ) ;
+		ArrayList<String> vars = new ArrayList<String>();
+		ArrayList<String> triples = new ArrayList<String>();
+		Query query = new Query();
+
+		parser.Start(vars, triples, query) ; 
+		for (String s: vars)
+			System.out.println(s);
+		System.out.println("====");
+		for (String s: triples)
+			System.out.println(s);
+*/			
+	}
+}
+PARSER_END(AmberParser)
+
+SKIP : { " " | "\t" | "\n" | "\r" | "\f" }
+TOKEN: { <#WS: " " | "\t" | "\n" | "\r" | "\f"> }
+SPECIAL_TOKEN :
+{ <SINGLE_LINE_COMMENT: "#" (~["\n","\r"])* ("\n"|"\r"|"\r\n")? > }
+
+TOKEN [IGNORE_CASE]: {
+	<SELECT : "select" >
+|	< VAR : "?" <VARNAME> >
+|	< WHERE : "where">
+}
+TOKEN : {	<#PN_CHARS_BASE:
+          	["A"-"Z"] | ["a"-"z"] |
+          	["\u00C0"-"\u00D6"] | ["\u00D8"-"\u00F6"] | ["\u00F8"-"\u02FF"] |
+          	["\u0370"-"\u037D"] | ["\u037F"-"\u1FFF"] |
+          	["\u200C"-"\u200D"] | ["\u2070"-"\u218F"] | ["\u2C00"-"\u2FEF"] |
+          	["\u3001"-"\uD7FF"] | ["\uF900"-"\uFFFD"]>
+			|
+			  <#PN_CHARS_U: <PN_CHARS_BASE> | "_" >
+			|
+			// No DOT
+			  <#PN_CHARS: (<PN_CHARS_U> | "-" | ["0"-"9"] | "\u00B7" |
+			              ["\u0300"-"\u036F"] | ["\u203F"-"\u2040"] ) >
+			|
+			  // No leading "_", no trailing ".", can have dot inside prefix name.
+			  <#PN_PREFIX: <PN_CHARS_BASE> ((<PN_CHARS>|".")* <PN_CHARS>)? >
+			|
+			  // With a leading "_", no dot at end of local name.
+			  <#PN_LOCAL: (<PN_CHARS_U> | ["0"-"9"]) ((<PN_CHARS>|".")* <PN_CHARS>)? >
+			|
+			  // NCNAME without "-" and ".", allowing leading digits.
+			  <#VARNAME: ( <PN_CHARS_U> | ["0"-"9"] )
+			             ( <PN_CHARS_U> | ["0"-"9"] | "\u00B7" |
+			               ["\u0300"-"\u036F"] | ["\u203F"-"\u2040"] )* >
+}
+
+TOKEN :{
+ < #WORD : (["a"-"z"]|["A"-"Z"]|["0"-"9"]|"-"|"#"|"_")+ >
+| < URI : "<http://" (<WORD> "/"| <WORD> "." <WORD> "/" | <WORD> "." <WORD> "." <WORD> "/")+ <WORD> ">"  >
+}
+
+
+TOKEN :
+{
+< LITERAL: ("\"" (~[])* "\"@" (["a"-"z"])+)
+	>
+|  < #DIGITS: (["0"-"9"])+>
+| < INTEGER: <DIGITS> >
+| < DECIMAL: ( <DIGITS> "." (<DIGITS>)* | "." <DIGITS> ) >
+| < DOUBLE: // Required exponent.
+      (
+        (["0"-"9"])+ "." (["0"-"9"])* <EXPONENT>
+        | "." (["0"-"9"])+ (<EXPONENT>)
+        | (["0"-"9"])+ <EXPONENT>
+      )
+      >
+
+| < #EXPONENT: ["e","E"] (["+","-"])? (["0"-"9"])+ >
+| < #QUOTE_3D: "\"\"\"">
+| < #QUOTE_3S: "'''">
+| <ECHAR: "\\" ( "t"|"b"|"n"|"r"|"f"|"\\"|"\""|"'") >
+| < STRING_LITERAL1:
+      // Single quoted string
+      "'" ( (~["'","\\","\n","\r"]) | <ECHAR> )* "'" >
+| < STRING_LITERAL2:
+    // Double quoted string
+      "\"" ( (~["\"","\\","\n","\r"]) | <ECHAR> )* "\"" >
+| < STRING_LITERAL_LONG1:
+     <QUOTE_3S>
+      ( ("'" | "''")? (~["'","\\"] | <ECHAR> ))*
+     <QUOTE_3S> >
+
+| < STRING_LITERAL_LONG2:
+     <QUOTE_3D>
+      ( ("\"" | "\"\"")? (~["\"","\\"] | <ECHAR> ))*
+     <QUOTE_3D> >
+
+}
+
+//TOKEN :
+//{
+//< LITERAL : () >
+//}
+
+TOKEN :
+{
+  < LPAREN: "(" >
+| < RPAREN: ")" >
+
+| <NIL: <LPAREN> (<WS>|<SINGLE_LINE_COMMENT>)* <RPAREN> >
+
+| < LBRACE: "{" >
+| < RBRACE: "}" >
+
+| < LBRACKET: "[" >
+| < RBRACKET: "]" >
+| < ANON: <LBRACKET> (<WS>|<SINGLE_LINE_COMMENT>)* <RBRACKET> >
+
+| < SEMICOLON: ";" >
+| < COMMA: "," >
+| < DOT: "." >
+}
+
+//TOKEN : { < PLUS : "+" > }
+//TOKEN : { < NUMBER : (["0"-"9"])+ > }
+
+
+void Start(ArrayList<String> list_vars, ArrayList<String> triples, ObjectShortHashMap<String> string2ShortP, ObjectIntHashMap<String> string2intSO, Query query) :
+{
+	Token t;
+}
+
+{
+	<SELECT>  
+	
+	Variable(list_vars, query)
+	( Variable(list_vars, query)
+	)* 
+	
+	<WHERE> <LBRACE>
+	( Triple(triples, string2ShortP, string2intSO, query) ".")+
+	<RBRACE>
+	
+}
+
+void Variable(ArrayList<String> list, Query query) :{
+	Token t ;
+}
+{
+	t = <VAR>
+	{ list.add(t.image); 
+		query.addSelect(t.image);
+	}
+}
+
+void Triple(ArrayList<String> triple, ObjectShortHashMap<String> string2ShortP, ObjectIntHashMap<String> string2intSO, Query query) :{
+	Token t1,t2,t3;
+	boolean isT1Variable = true;
+	boolean isT3Variable = true;
+}
+{
+	 
+	 ( t1 = <VAR>
+	   | t1 = <URI> {isT1Variable = false;} 
+	  )
+	  t2 = <URI> 
+	(
+		t3 = <LITERAL> {isT3Variable = false;} 
+		| t3 = <URI> {isT3Variable = false;} 
+		| t3 = <VAR>
+	)	
+	{ 
+		int subject_id = -1; 
+		int object_id = -1;
+		if (!isT1Variable)
+			subject_id = string2intSO.get(t1.image);
+		if (!isT3Variable)	
+			object_id = string2intSO.get(t3.image);
+		
+		query.addTriple(t1.image,t3.image,string2ShortP.get(t2.image), subject_id, object_id);
+		//triple.add(t1.image+"_"+t2.image+"_"+t3.image);
+	}
+}
