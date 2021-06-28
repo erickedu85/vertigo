@@ -31,10 +31,11 @@ Java
 ## Getting the runnable jar
 The runnable jar is hosted at [runnable_jar](https://github.com/erickedu85/vertigo/runnable_jar/)
 
-Requeriments:
-	* Java installed on your machine
+**Requeriments:**
+* Java installed on your machine
 
-Run the jar file:
+**Run the jar file:**
+
 	$ git clone https://github.com/erickedu85/vertigo/runnable_jar/
 	$ cd runnable_jar
 	$ java -jar vertigo.jar (or simple double click on it)
@@ -42,20 +43,20 @@ Run the jar file:
 ## Getting the source code
 The source code is hosted at [source_code](https://github.com/erickedu85/vertigo/source_code/)
 
-Requirements:
-	* Java Development Kit (JDK) or Java Runtime Machine (JRE) 1.8 on your machine
-	* Eclipse IDE 2021
-	* Maven (It is included in the Eclipse IDE)
+**Requirements:**
+* Java Development Kit (JDK) or Java Runtime Machine (JRE) 1.8 on your machine
+* Eclipse IDE 2021
+* Maven (It is included in the Eclipse IDE)
 
-Build the code:
-	* Import the source code into the Eclipse IDE workspace
-		* Import projects > Maven > Existing Maven Projects
-	* Add the JDK to the Workspace Default JRE
-		* Rigth-click your project > properties > select Java Build Path > JRE System Library > select Workspace Default JRE > click Installed JREs > select JDK path
-	* (optional) Right-click on your project then Maven > Update
+**Build the code:**
+* Import the source code into the Eclipse IDE workspace
+	* Import projects > Maven > Existing Maven Projects
+* Add the JDK to the Workspace Default JRE
+	* Rigth-click your project > properties > select Java Build Path > JRE System Library > select Workspace Default JRE > click Installed JREs > select JDK path
+	* _(optional)_ Right-click your project, then Maven > Update
 
-Run the code:
-	* Right-click on the src/main/java/app/gui/main/Application.java file, then Run As > Java Application
+**Run the code:**
+* Right-click on the src/main/java/app/gui/main/Application.java file, then Run As > Java Application
 
 ## Licence
 [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/ "Attribution-NonCommercial-ShareAlike 4.0 International")
