@@ -1,0 +1,223 @@
+/* Main Background of the views */
+.toolBarLayout {
+	-fx-background-color: #2671b7;
+	-fx-alignment: center-left;
+	-fx-padding: 0 0 0 5; /* top, right, bottom and left */
+}
+
+/* Main titles layout of the views */
+.toolBarLayoutTitle {
+	-fx-font: 14 Arial;
+	-fx-text-fill: #fff;
+	-fx-font-weight: bold;
+}
+
+/* Menus background */
+.backgroundMenu {
+	-fx-background-color: #deebf7;
+}
+
+/* Background different in Graph View */
+/* Font size of tooltip */
+.btnMenuMain {
+	-fx-background-color: #2671b7;
+	-fx-border-color: #9ecae1;
+	-fx-border-radius: 5;
+	-fx-font: 13 Arial;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
+
+.btnMenuMain:hover {
+	-fx-background-color: #9ecae1;
+	-fx-border-color: #9ecae1;
+	-fx-border-radius: 5;
+}
+
+.btnMenuMain:pressed:hover {
+	-fx-background-color: #4292c6;
+	-fx-border-color: #4292c6;
+	-fx-border-radius: 5;
+	-fx-scale-y: 0.9;
+	-fx-scale-x: 0.9;
+}
+
+/* btn in Graph View and list embeddings */
+.btnMenu {
+	-fx-background-color: #deebf7;
+	-fx-border-color: #9ecae1;
+	-fx-border-radius: 5;
+	-fx-font: 12 Arial;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
+
+.btnMenu:hover {
+	-fx-background-color: #9ecae1;
+	-fx-border-color: #9ecae1;
+	-fx-border-radius: 5;
+}
+
+.btnMenu:pressed:hover {
+	-fx-background-color: #4292c6;
+	-fx-border-color: #4292c6;
+	-fx-border-radius: 5;
+	-fx-scale-y: 0.9;
+	-fx-scale-x: 0.9;
+}
+
+.btnToggleMenu {
+	-fx-background-color: #deebf7;
+	-fx-border-color: #9ecae1;
+	-fx-border-radius: 5;
+	-fx-font: 12.5 Arial;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
+
+.btnToggleMenu:hover {
+	-fx-background-color: #9ecae1;
+	-fx-border-color: #9ecae1;
+	-fx-border-radius: 5;
+}
+
+.btnToggleMenu:pressed:hover {
+	-fx-background-color: #4292c6;
+	-fx-border-color: #4292c6;
+	-fx-border-radius: 5;
+	-fx-scale-y: 0.9;
+	-fx-scale-x: 0.9;
+}
+
+.btnToggleMenu:selected {
+	-fx-background-color: #4292c6;
+	-fx-border-color: #4292c6;
+	-fx-border-radius: 5;
+}
+
+/* */
+/* QUERY VIEW*/
+/* */
+#panel-query-design {
+	-fx-background-color: white;
+}
+
+#cmbAddEdge-selected {
+	-fx-background-color: #4292c6;
+	-fx-border-radius: 5;
+	-fx-text-fill: -fx-light-text-color;
+}
+
+#cmbAddEdge-unselected {
+	
+}
+
+#cmbAddNode-selected {
+	-fx-background-color: #4292c6;
+	-fx-border-radius: 5;
+	-fx-text-fill: -fx-light-text-color;
+}
+
+#cmbAddNode-unselected {
+	
+}
+
+/* Size the initial combo-box attribute-node. */
+.combo-box {
+	-fx-pref-width: 30;
+}
+
+/* Size the list of combo-box attribute-node. */
+.combo-box-popup>.list-view {
+	-fx-pref-width: 160;
+}
+
+.status-bar {
+	-fx-background-color: #deebf7;
+	-fx-font: 12 Arial;
+	-fx-alignment: center-left;
+}
+
+/* */
+/* HISTOGRAM */
+/* */
+#histogramLayout {
+	-fx-background-color: #FFFFFF;
+	-fx-padding: 25 0 0 0;
+}
+
+#histogramLayout .chart-title {
+	-fx-font: 12 Arial;
+	-fx-font-weight: bold;
+}
+
+#histogramLayout .axis-label {
+	-fx-font: 12 Arial;
+}
+
+/* */
+/* LIST EMBEDDING */
+/* */
+
+/* Buttons */
+.listLabelOfAuthors{
+	-fx-font: 15 Arial;
+}
+
+
+#listEmbedding .table-column {
+	-fx-alignment: CENTER;
+	-fx-font: 12 Arial;
+}
+
+#listEmbedding .column-header-background .label {
+	-fx-font: 14 Arial;
+}
+
+.table-row-cell:filled:selected {
+	-fx-background: -fx-control-inner-background;
+	-fx-background-color: -fx-table-cell-border-color, -fx-background;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-table-cell-border-color: derive(-fx-color, 5%);
+}
+
+.table-row-cell:odd:filled:selected {
+	-fx-background: -fx-control-inner-background;
+	-fx-background-color: -fx-table-cell-border-color, -fx-background;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-table-cell-border-color: derive(-fx-color, 5%);
+}
+
+.table-row-cell {
+	-fx-background: -fx-control-inner-background;
+	-fx-background-color: -fx-table-cell-border-color, -fx-background;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-table-cell-border-color: derive(-fx-color, 5%);
+	-fx-alignment: CENTER;
+}
+
+/* */
+/* PREFERENCES */
+/* */
+.preferences {
+	-fx-background-color: #f3f3f3;
+}
+
+GridPane .subTitle {
+	-fx-font: 15 Arial;
+	-fx-text-fill: #000;
+	-fx-font-weight: bold;
+	-fx-padding: 3 0 0 0;
+}
+
+GridPane .item {
+	-fx-font: 15 Arial;
+	-fx-text-fill: #000;
+	-fx-padding: 0 10 0 10;
+}
+
+/*NO USED*/
+.labelItem.table-cell {
+	/* -fx-font-style: italic; */
+	-fx-alignment: CENTER-RIGHT;
+}
