@@ -55,7 +55,7 @@ The source code is hosted at [source_code](https://github.com/erickedu85/vertigo
 * Import the source code into the Eclipse IDE workspace
 	* Import projects > Maven > Existing Maven Projects
 * Add the JDK to the Workspace Default JRE
-	* Rigth-click your project > properties > select Java Build Path > JRE System Library > select Workspace Default JRE > click Installed JREs > select JDK path
+	* Right-click your project > properties > select Java Build Path > JRE System Library > select Workspace Default JRE > click Installed JREs > select JDK path
 	* _(optional)_ Right-click your project, then Maven > Update
 
 **Run the code:**
