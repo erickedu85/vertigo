@@ -29,7 +29,7 @@ Visual Querying System, Visual Pattern Suggestion, Multilayer Networks
 Java
 
 ## Getting the runnable jar
-The runnable jar is hosted at [runnable_jar](https://github.com/erickedu85/vertigo/runnable_jar/)
+The runnable jar is hosted at [runnable_jar](https://github.com/erickedu85/vertigo/tree/master/runnable_jar)
 
 **Requeriments:**
 * Java installed on your machine
@@ -41,7 +41,10 @@ The runnable jar is hosted at [runnable_jar](https://github.com/erickedu85/verti
 	$ java -jar vertigo.jar (or simple double click on it)
 
 ## Getting the source code
-The source code is hosted at [source_code](https://github.com/erickedu85/vertigo/source_code/)
+The source code is hosted at [source_code](https://github.com/erickedu85/vertigo/tree/master/source_code)
+
+	$ git clone https://github.com/erickedu85/vertigo/source_code/
+	$ cd source_code
 
 **Requirements:**
 * Java Development Kit (JDK) or Java Runtime Machine (JRE) 1.8 on your machine
