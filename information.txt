@@ -1,3 +1,3 @@
 Title: VERTIGo: a Visual Platform for Querying and Exploring Large Multilayer Networks
 Authors: Erick Cuenca, Arnaud Sallaberry, Dino Ienco, and Pascal Poncelet
-Operating System: This code was tested on a Windows 10 64bit Operating System
+Operating System: This code was tested on a Windows 10 64bit and a MacOS 11.4 Operating System
