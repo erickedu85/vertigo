@@ -38,7 +38,7 @@ The runnable jar is hosted at [runnable_jar](https://github.com/erickedu85/verti
 
 	$ git clone https://github.com/erickedu85/vertigo/runnable_jar/
 	$ cd runnable_jar
-	$ java -jar vertigo.jar (or double click on it (Windows OS))
+	$ java -jar vertigo.jar (or double-click on it (Windows OS))
 
 ## Getting the source code
 The source code is hosted at [source_code](https://github.com/erickedu85/vertigo/tree/master/source_code)
@@ -65,7 +65,8 @@ The source code is hosted at [source_code](https://github.com/erickedu85/vertigo
 
 ## Replicate a functionality
 Since VERTIGo is an interactive application, we cannot provide a script to replicate a specific functionality because the user has multiple options to perform any operation. However, we provide a video where it is shown step-by-step to achieve a desired result.
-* Following this [video](https://github.com/erickedu85/vertigo/tree/master/runnable_jar/video/vertigo_replicability.mp4) you can replicate the result of Fig 11. of the [VERTIGo paper](https://doi.org/10.1109/TVCG.2021.3067820) (You can achieve this functionality by running the [runnable_jar](https://github.com/erickedu85/vertigo/tree/master/runnable_jar) or compiling the [source_code](https://github.com/erickedu85/vertigo/tree/master/source_code))
+* Following this [video](https://github.com/erickedu85/vertigo/tree/master/runnable_jar/video/vertigo_replicability.mp4) you can replicate the result of Fig 11 of the [VERTIGo paper](https://doi.org/10.1109/TVCG.2021.3067820)
+	* (You can achieve this functionality by running the [runnable_jar](https://github.com/erickedu85/vertigo/tree/master/runnable_jar) or compiling the [source_code](https://github.com/erickedu85/vertigo/tree/master/source_code))
 
 
 ## Licence
