@@ -38,7 +38,7 @@ The runnable jar is hosted at [runnable_jar](https://github.com/erickedu85/verti
 
 	$ git clone https://github.com/erickedu85/vertigo/runnable_jar/
 	$ cd runnable_jar
-	$ java -jar vertigo.jar (or simple double click on it)
+	$ java -jar vertigo.jar (or double click on it (Windows OS))
 
 ## Getting the source code
 The source code is hosted at [source_code](https://github.com/erickedu85/vertigo/tree/master/source_code)
@@ -47,19 +47,26 @@ The source code is hosted at [source_code](https://github.com/erickedu85/vertigo
 	$ cd source_code
 
 **Requirements:**
-* Java Development Kit (JDK) or Java Runtime Machine (JRE) 1.8 on your machine
-* Eclipse IDE 2021
+* [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) or [Java Runtime Machine (JRE)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) 1.8 on your machine
+* [Eclipse IDE 2021](https://www.eclipse.org/downloads/)
 * Maven (It is included in the Eclipse IDE)
 
 **Build the code:**
 * Import the source code into the Eclipse IDE workspace
 	* Import projects > Maven > Existing Maven Projects
 * Add the JDK to the Workspace Default JRE
-	* Right-click your project > properties > select Java Build Path > JRE System Library > select Workspace Default JRE > click Installed JREs > select JDK path
+	* Right-click your project > properties > select Libraries Tab > select JRE System Library > select Java Build Path > JRE System Library > select Workspace Default JRE > click Installed JREs > select JDK path
 	* _(optional)_ Right-click your project, then Maven > Update
+
 
 **Run the code:**
 * Right-click on the src/main/java/app/gui/main/Application.java file, then Run As > Java Application
+
+
+## Replicate a functionality
+Since VERTIGo is an interactive application, we cannot provide a script to replicate a specific functionality because the user has multiple options to perform any operation. However, we provide a video where it is shown step-by-step to achieve a desired result.
+* Following this [video](https://github.com/erickedu85/vertigo/tree/master/runnable_jar/video/vertigo_replicability.mp4) you can replicate the result of Fig 11. of the [VERTIGo paper](https://doi.org/10.1109/TVCG.2021.3067820) (You can achieve this functionality by running the [runnable_jar](https://github.com/erickedu85/vertigo/tree/master/runnable_jar) or compiling the [source_code](https://github.com/erickedu85/vertigo/tree/master/source_code))
+
 
 ## Licence
 [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/ "Attribution-NonCommercial-ShareAlike 4.0 International")

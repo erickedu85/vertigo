@@ -1743,3 +1743,225 @@
 2021-05-30 00:01:01 INFO  GuiGraphDB:596 - count graph 3
 2021-05-30 00:01:07 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
 2021-05-30 00:01:07 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:26:17 INFO  GuiQuery:782 - Constraints [I@6582f654
+2021-06-29 17:26:17 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:26:17 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:26:17 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:26:17 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:26:17 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:26:17 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:26:17 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:26:18 INFO  GuiGraphDB:969 - Embedding fetched batch: 214
+2021-06-29 17:26:18 INFO  GuiGraphDB:970 - Embedding fetched in total: 		214
+2021-06-29 17:26:19 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:26:21 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:26:21 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:30:22 INFO  GuiQuery:782 - Constraints [I@437e588b
+2021-06-29 17:30:22 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:30:22 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:30:22 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:30:22 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:30:22 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:30:23 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:30:23 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:30:23 INFO  GuiGraphDB:969 - Embedding fetched batch: 6
+2021-06-29 17:30:23 INFO  GuiGraphDB:970 - Embedding fetched in total: 		6
+2021-06-29 17:30:23 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:30:23 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:30:23 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:30:55 INFO  GuiQuery:197 - 
+2021-06-29 17:31:02 INFO  GuiQuery:782 - Constraints [I@7ce4d0c4
+2021-06-29 17:31:02 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:31:02 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:31:02 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:31:02 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:31:02 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:31:02 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:31:02 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:31:03 INFO  GuiGraphDB:969 - Embedding fetched batch: 83
+2021-06-29 17:31:03 INFO  GuiGraphDB:970 - Embedding fetched in total: 		83
+2021-06-29 17:31:03 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:31:03 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:31:03 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:31:37 INFO  GuiQuery:197 - 
+2021-06-29 17:31:39 INFO  GuiQuery:782 - Constraints [I@17cf9a7a
+2021-06-29 17:31:39 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:31:39 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:31:39 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:31:39 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:31:39 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:31:40 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:31:40 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:31:40 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:31:40 INFO  GuiGraphDB:970 - Embedding fetched in total: 		1000
+2021-06-29 17:31:40 INFO  GuiGraphDB:969 - Embedding fetched batch: 37
+2021-06-29 17:31:40 INFO  GuiGraphDB:970 - Embedding fetched in total: 		1037
+2021-06-29 17:31:40 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:31:42 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:31:42 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:32:01 INFO  GuiQuery:197 - 
+2021-06-29 17:32:03 INFO  GuiQuery:782 - Constraints [I@2e292404
+2021-06-29 17:32:03 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:32:03 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:32:03 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:32:03 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:32:03 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:32:04 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:32:04 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:32:04 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:32:04 INFO  GuiGraphDB:970 - Embedding fetched in total: 		1000
+2021-06-29 17:32:04 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:32:04 INFO  GuiGraphDB:970 - Embedding fetched in total: 		2000
+2021-06-29 17:32:04 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:32:04 INFO  GuiGraphDB:970 - Embedding fetched in total: 		3000
+2021-06-29 17:32:04 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:32:04 INFO  GuiGraphDB:970 - Embedding fetched in total: 		4000
+2021-06-29 17:32:04 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:32:04 INFO  GuiGraphDB:970 - Embedding fetched in total: 		5000
+2021-06-29 17:32:04 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:32:04 INFO  GuiGraphDB:970 - Embedding fetched in total: 		6000
+2021-06-29 17:32:04 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:32:04 INFO  GuiGraphDB:970 - Embedding fetched in total: 		7000
+2021-06-29 17:32:04 INFO  GuiGraphDB:969 - Embedding fetched batch: 84
+2021-06-29 17:32:04 INFO  GuiGraphDB:970 - Embedding fetched in total: 		7084
+2021-06-29 17:32:04 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:43:30 INFO  GuiQuery:782 - Constraints [I@4a199c35
+2021-06-29 17:43:30 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:43:30 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:43:30 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:43:30 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:43:30 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:43:30 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:43:30 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:43:30 INFO  GuiGraphDB:969 - Embedding fetched batch: 6
+2021-06-29 17:43:30 INFO  GuiGraphDB:970 - Embedding fetched in total: 		6
+2021-06-29 17:43:30 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:43:31 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:43:31 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:43:52 INFO  GuiQuery:197 - 
+2021-06-29 17:43:56 INFO  GuiQuery:782 - Constraints [I@e92007d
+2021-06-29 17:43:56 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:43:56 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:43:56 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:43:56 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:43:56 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:43:57 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:43:57 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:43:57 INFO  GuiGraphDB:969 - Embedding fetched batch: 83
+2021-06-29 17:43:57 INFO  GuiGraphDB:970 - Embedding fetched in total: 		83
+2021-06-29 17:43:57 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:43:57 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:43:57 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:44:16 INFO  GuiQuery:197 - 
+2021-06-29 17:44:22 INFO  GuiQuery:782 - Constraints [I@2b87876b
+2021-06-29 17:44:22 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:44:22 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:44:22 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:44:22 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:44:22 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:44:22 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:44:22 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:44:22 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:44:22 INFO  GuiGraphDB:970 - Embedding fetched in total: 		1000
+2021-06-29 17:44:22 INFO  GuiGraphDB:969 - Embedding fetched batch: 37
+2021-06-29 17:44:22 INFO  GuiGraphDB:970 - Embedding fetched in total: 		1037
+2021-06-29 17:44:22 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:44:24 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:44:24 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:44:41 INFO  GuiQuery:197 - 
+2021-06-29 17:44:45 INFO  GuiQuery:782 - Constraints [I@2481c873
+2021-06-29 17:44:45 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:44:45 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:44:45 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:44:45 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:44:45 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:44:45 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:44:45 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:44:45 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:44:45 INFO  GuiGraphDB:970 - Embedding fetched in total: 		1000
+2021-06-29 17:44:45 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:44:45 INFO  GuiGraphDB:970 - Embedding fetched in total: 		2000
+2021-06-29 17:44:45 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:44:45 INFO  GuiGraphDB:970 - Embedding fetched in total: 		3000
+2021-06-29 17:44:45 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:44:45 INFO  GuiGraphDB:970 - Embedding fetched in total: 		4000
+2021-06-29 17:44:45 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:44:45 INFO  GuiGraphDB:970 - Embedding fetched in total: 		5000
+2021-06-29 17:44:45 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:44:45 INFO  GuiGraphDB:970 - Embedding fetched in total: 		6000
+2021-06-29 17:44:45 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:44:45 INFO  GuiGraphDB:970 - Embedding fetched in total: 		7000
+2021-06-29 17:44:45 INFO  GuiGraphDB:969 - Embedding fetched batch: 84
+2021-06-29 17:44:45 INFO  GuiGraphDB:970 - Embedding fetched in total: 		7084
+2021-06-29 17:44:45 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:45:27 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:45:27 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:47:51 INFO  GuiQuery:782 - Constraints [I@fbb3d6d
+2021-06-29 17:47:51 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:47:51 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:47:51 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:47:51 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:47:51 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:47:51 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:47:51 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:47:51 INFO  GuiGraphDB:969 - Embedding fetched batch: 6
+2021-06-29 17:47:51 INFO  GuiGraphDB:970 - Embedding fetched in total: 		6
+2021-06-29 17:47:51 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:47:51 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:47:51 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:48:07 INFO  GuiQuery:197 - 
+2021-06-29 17:48:09 INFO  GuiQuery:782 - Constraints [I@259fe466
+2021-06-29 17:48:09 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:48:09 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:48:09 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:48:09 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:48:09 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:48:10 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:48:10 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:48:10 INFO  GuiGraphDB:969 - Embedding fetched batch: 83
+2021-06-29 17:48:10 INFO  GuiGraphDB:970 - Embedding fetched in total: 		83
+2021-06-29 17:48:10 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:48:10 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:48:10 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:48:24 INFO  GuiQuery:197 - 
+2021-06-29 17:48:27 INFO  GuiQuery:782 - Constraints [I@79d60223
+2021-06-29 17:48:27 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:48:27 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:48:27 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:48:27 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:48:27 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:48:27 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:48:27 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:48:27 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:48:27 INFO  GuiGraphDB:970 - Embedding fetched in total: 		1000
+2021-06-29 17:48:27 INFO  GuiGraphDB:969 - Embedding fetched batch: 37
+2021-06-29 17:48:27 INFO  GuiGraphDB:970 - Embedding fetched in total: 		1037
+2021-06-29 17:48:27 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
+2021-06-29 17:48:29 INFO  GuiGraphDB:1152 -  ------ Terminate GHOST :) --------
+2021-06-29 17:48:29 INFO  MainSumgra:45 - Finish SuMGra process
+2021-06-29 17:48:41 INFO  GuiQuery:197 - 
+2021-06-29 17:48:44 INFO  GuiQuery:782 - Constraints [I@52ad7d72
+2021-06-29 17:48:44 INFO  MainSumgra:43 - Start SuMGra process
+2021-06-29 17:48:44 INFO  GraphDatabase:485 - STEP 1
+2021-06-29 17:48:44 INFO  GraphDatabase:495 - STEP 2
+2021-06-29 17:48:44 INFO  GraphDatabase:606 - relationships count: 129983
+2021-06-29 17:48:44 INFO  GraphDatabase:497 - STEP 3
+2021-06-29 17:48:44 INFO  MainSumgra:62 - Init backtratking quering
+2021-06-29 17:48:44 INFO  GraphDatabase:246 - here in query
+2021-06-29 17:48:44 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:48:44 INFO  GuiGraphDB:970 - Embedding fetched in total: 		1000
+2021-06-29 17:48:44 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:48:44 INFO  GuiGraphDB:970 - Embedding fetched in total: 		2000
+2021-06-29 17:48:44 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:48:44 INFO  GuiGraphDB:970 - Embedding fetched in total: 		3000
+2021-06-29 17:48:44 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:48:44 INFO  GuiGraphDB:970 - Embedding fetched in total: 		4000
+2021-06-29 17:48:44 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:48:44 INFO  GuiGraphDB:970 - Embedding fetched in total: 		5000
+2021-06-29 17:48:44 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:48:44 INFO  GuiGraphDB:970 - Embedding fetched in total: 		6000
+2021-06-29 17:48:44 INFO  GuiGraphDB:969 - Embedding fetched batch: 1000
+2021-06-29 17:48:44 INFO  GuiGraphDB:970 - Embedding fetched in total: 		7000
+2021-06-29 17:48:44 INFO  GuiGraphDB:969 - Embedding fetched batch: 84
+2021-06-29 17:48:44 INFO  GuiGraphDB:970 - Embedding fetched in total: 		7084
+2021-06-29 17:48:44 INFO  GuiGraphDB:1100 -  ------ Init GHOST :) --------
