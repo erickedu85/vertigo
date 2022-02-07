@@ -13,14 +13,17 @@ Many real world data can be modeled by a graph with a set of nodes interconnecte
   title={VERTIGo: a Visual Platform for Querying and Exploring Large Multilayer Networks},
   author={Cuenca, Erick and Sallaberry, Arnaud and Ienco, Dino and Poncelet, Pascal},
   journal={IEEE Transactions on Visualization and Computer Graphics},
-  year={2021},
+  volume={28},
+  number={3},
+  pages={1634--1647},
+  year={2022},
   publisher={IEEE},
   doi={10.1109/TVCG.2021.3067820}
-  note={To appear}
 }
 ```
-## Video demonstration
-A demonstration video is available at: https://youtu.be/0aC6-8pW66Y
+
+## Links
+[Website](http://advanse.lirmm.fr/vertigo/) | [PDF](https://doi.org/10.1109/TVCG.2021.3067820 "PDF") | [Video](https://youtu.be/0aC6-8pW66Y "Video")
 
 ## Keywords
 Visual Querying System, Visual Pattern Suggestion, Multilayer Networks
