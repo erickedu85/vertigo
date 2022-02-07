@@ -25,6 +25,8 @@ Many real world data can be modeled by a graph with a set of nodes interconnecte
 ## Links
 [Website](http://advanse.lirmm.fr/vertigo/) | [PDF](https://doi.org/10.1109/TVCG.2021.3067820 "PDF") | [Video](https://youtu.be/0aC6-8pW66Y "Video")
 
+[Contact us](mailto:ecuenca@yachaytech.edu.ec)
+
 ## Keywords
 Visual Querying System, Visual Pattern Suggestion, Multilayer Networks
 
