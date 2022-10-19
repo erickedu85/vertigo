@@ -41,15 +41,15 @@ The runnable jar is hosted at [runnable_jar](https://github.com/erickedu85/verti
 
 **Run the jar file:**
 
-	$ git clone https://github.com/erickedu85/vertigo/runnable_jar/
-	$ cd runnable_jar
-	$ java -jar vertigo.jar (or double-click on it (Windows OS))
+	$ git clone https://github.com/erickedu85/vertigo.git
+	$ cd vertig/runnable_jar
+	$ java -jar vertigo.jar (or double-click on it (Windows OS, MacOS))
 
 ## Getting the source code
 The source code is hosted at [source_code](https://github.com/erickedu85/vertigo/tree/master/source_code)
 
-	$ git clone https://github.com/erickedu85/vertigo/source_code/
-	$ cd source_code
+	$ git clone https://github.com/erickedu85/vertigo.git
+	$ cd vertigo/source_code
 
 **Requirements:**
 * [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) or [Java Runtime Machine (JRE)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) 1.8 on your machine
