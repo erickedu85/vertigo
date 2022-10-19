@@ -42,7 +42,7 @@ The runnable jar is hosted at [runnable_jar](https://github.com/erickedu85/verti
 **Run the jar file:**
 
 	$ git clone https://github.com/erickedu85/vertigo.git
-	$ cd vertig/runnable_jar
+	$ cd vertigo/runnable_jar
 	$ java -jar vertigo.jar (or double-click on it (Windows OS, MacOS))
 
 ## Getting the source code
@@ -60,7 +60,7 @@ The source code is hosted at [source_code](https://github.com/erickedu85/vertigo
 * Import the source code into the Eclipse IDE workspace
 	* Import projects > Maven > Existing Maven Projects
 * Add the JDK to the Workspace Default JRE
-	* Right-click your project > properties > select Libraries Tab > select JRE System Library > select Java Build Path > JRE System Library > select Workspace Default JRE > click Installed JREs > select JDK path
+	* Right-click your project > properties > select Libraries Tab > select JRE System Library > select Java Build Path > JRE System Library > select Workspace Default JRE > click Installed JREs > select JDK or JRE (v.1.8) path
 	* _(optional)_ Right-click your project, then Maven > Update
 
 
